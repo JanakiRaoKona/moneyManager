@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.balance-image {
+  width: 40px;
+  margin-right: 10px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.money-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.balance-container1 {
+  background-color: #ecfccb;
+  padding: 10px;
+  border-color: #84cc16;
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+}
+.balance-container2 {
+  background-color: #cffafe;
+  padding: 10px;
+  border-color: #06b6d4;
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+}
+.balance-container3 {
+  background-color: #ede9fe;
+  padding: 10px;
+  border-color: #7c3aed;
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+}
+.sub-balance {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600px;
+  color: #334155;
+}
+.sub-income {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 900px;
+  color: #334155;
+}
